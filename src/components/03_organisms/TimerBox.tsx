@@ -6,7 +6,7 @@ import { CycleCount } from "../01_atoms/CycleCount";
 
 type Props = {
   kvImage: string;
-  stop: (id?: string | undefined) => void;
+  stop: () => void;
 };
 
 export const TimerBox: FC<Props> = memo((props) => {

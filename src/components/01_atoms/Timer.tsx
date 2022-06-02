@@ -8,7 +8,7 @@ import { InputFormData } from "../../types/InputFormData";
 import { cycleState } from "../../store/cycleState";
 
 type Props = {
-  stop: (id?: string | undefined) => void;
+  stop: () => void;
 };
 
 export const Timer: FC<Props> = memo((props) => {
